@@ -20,3 +20,7 @@ resource "azurerm_resource_group" "rg1"{
   name = "branch103"
   location = "centralindia"
 }
+resource "azurerm_resource_group" "rg3"{
+  name = "branch104"
+  location = "centralindia"
+}
