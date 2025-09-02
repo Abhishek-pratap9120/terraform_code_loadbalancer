@@ -12,3 +12,7 @@ provider "azurerm" {
     subscription_id=""
   
 }
+resource "azurerm_resource_group" "rg"{
+  name = "branch101"
+  location = "centralindia"
+}
